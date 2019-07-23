@@ -1,11 +1,16 @@
 <template>
     <div id="app">
-        <h1>Vue JS</h1>
+        <game></game>
     </div>
 </template>
 
 <script>
+    import Game from "./components/Game";
+
     export default {
         name: 'app',
+        components: {
+            Game,
+        },
     }
 </script>
